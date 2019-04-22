@@ -10,7 +10,7 @@ class Produto{
 
  	public function __contruct($tmpNome) 
  	{
-	$this->nome = $tmpNome;
+	$this->nome = $tmpNome; //Implementa mais teu construtor pra fazer ele pegar todos os atributo dos produto e não apenas o nome.
 	}
 
 	public function setNome($novoNome){
