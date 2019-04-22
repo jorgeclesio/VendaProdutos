@@ -5,8 +5,8 @@ require "Venda.php"
 
 $produto = new Produto("Arroz");
 
-$produto->setProduto("Arroz");
-echo $produto1->getProduto;
+$produto->setProduto("Arroz"); //setProduto não existe na classe.
+echo $produto1->getProduto; //getProduto não existe na classe.
 
 
 
